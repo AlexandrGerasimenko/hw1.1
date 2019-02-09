@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./fonts/font-awesome-4.7.0/css/font-awesome.css">
     <link rel="stylesheet" href="./css/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 </head>
 <body>
     <header>
@@ -32,7 +33,7 @@
                         <li><a href="#">Доставка</a></li>
                         <li><a href="#">Гарантия</a></li>
                         <li><a href="#">Доставка и оплата</a></li>
-                        <li><a href="#">Кредит</a></li>
+                        <li><a href="#">Кредит онлайн</a></li>
                     </ul>
                 </div>
                 <div class="search">
@@ -76,7 +77,29 @@
                 <a href="">lorem3</a>
                 <a href="">lorem4</a>
             </div>
-            <div><a href="#"><img src="./images/nokia.jpg" alt="nokia"></a></div>
+            <!-- <div><a href="#"><img src="./images/nokia.jpg" alt="nokia"></a> </div> -->
+            <div id="block-for-slider">
+                    <div id="viewport">
+                        <ul id="slidewrapper">
+                            <li class="slide"><img src="./images/nokia.jpg" alt="nokia" alt="1" class="slide-img"></li>
+                            <li class="slide"><img src="./images/samsung.jpg" alt="2" class="slide-img"></li>
+                            <li class="slide"><img src="./images/dell.jpg" alt="3" class="slide-img"></li>
+                            <li class="slide"><img src="./images/phillips.jpg" alt="4" class="slide-img"></li>
+                        </ul>
+            
+                        <div id="prev-next-btns">
+                            <div id="prev-btn"><i class="fa fa-chevron-left"></i></div>
+                            <div id="next-btn"><i class="fa fa-chevron-right"></i></div>
+                        </div>
+            
+                        <ul id="nav-btns">
+                            <li class="slide-nav-btn"></li>
+                            <li class="slide-nav-btn"></li>
+                            <li class="slide-nav-btn"></li>
+                            <li class="slide-nav-btn"></li>
+                        </ul>
+                    </div>
+                </div>
         </article>
         <nav>
             <div>Каталог Товаров</div>
@@ -117,4 +140,5 @@
         </div>
     </footer>
 </body>
+<script src="./js/main.js"></script>
 </html>
